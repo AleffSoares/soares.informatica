@@ -1,7 +1,6 @@
 var $target = $('.card'),
     animationClass = 'card-start';
     offset = $(window).height() * 3 / 4;
-    
 
 function animeScroll() {
     var documentTop = $(document).scrollTop();
@@ -17,8 +16,11 @@ function animeScroll() {
     
 }
 
+
+
 animeScroll();
 
-$(document).scroll(function (){
+$("body").scroll(function (){
+
     animeScroll();
 })
