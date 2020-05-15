@@ -19,6 +19,7 @@ function animeScroll() {
 
 animeScroll();
 
-$(document).scroll(function (){
+$("body").scroll(function (){
+
     animeScroll();
 })
